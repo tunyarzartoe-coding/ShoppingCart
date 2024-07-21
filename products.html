@@ -17,6 +17,33 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/notiflix@3.2.7/src/notiflix.min.css"
     />
+    <style>
+      .footer {
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 14px;
+        background: linear-gradient(-60deg, rgb(16, 24, 65), rgb(32, 43, 96));
+        border-top: 1px solid #ffffff20;
+        color: white;
+      }
+  
+      .footer-text {
+        margin: 0;
+      }
+  
+      .footer-link {
+        color: #f8f9fa;
+        text-decoration: none;
+        font-weight: bold;
+      }
+  
+      .footer-link:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -53,6 +80,14 @@
     <div class="container">
       <div id="productCards" class="row mt-4"></div>
     </div>
+    <footer class="footer">
+      <p class="footer-text">
+        Created with ❤️ by 
+        <a href="https://github.com/tunyarzartoe-coding" target="_blank" rel="noopener noreferrer" class="footer-link">
+          Tun Yar Zar Toe
+        </a>
+      </p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.7/dist/notiflix-aio-3.2.7.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
